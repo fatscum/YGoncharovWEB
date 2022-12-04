@@ -44,12 +44,12 @@ class Quote
 		$this->year = $year;
 	}
 
-	public function getId():
+	public function getId()
     {
         return $this->id;
     }
 
-    public function getQuote():
+    public function getQuote()
     {
         return $this->quote;
     }
